@@ -1,0 +1,1840 @@
+/*-------------通用样式-------------*/
+.icon1 {
+  background: url(../images/icon_1.png) no-repeat;
+  background-size: 4rem 0.48rem;
+}
+.icon2 {
+  background: url(../images/icon_2.png) no-repeat;
+  background-size: 2.28rem 0.38rem;
+}
+.icon3 {
+  background: url(../images/icon_3.png) no-repeat;
+  background-size: 0.8rem 0.36rem;
+}
+.icon_foot {
+  background: url(../images/icon_foot.png) no-repeat;
+  background-size: 4.33rem 0.72rem;
+}
+.icon_liuyan {
+  background: url(../images/icon_liuyan.png) no-repeat;
+  background-size: 1.82rem 0.47rem;
+}
+header {
+  height: 0.97rem;
+  border-bottom: 2px solid #00767f;
+  background: #00a9b6;
+  line-height: 0.97rem;
+  font-family: "微软雅黑";
+}
+header a:first-child {
+  display: block;
+  width: 1.56rem;
+  height: 100%;
+  background: url(../images/back.png) no-repeat;
+  background-size: 1.1rem 0.68rem;
+  background-position: center center;
+  float: left;
+}
+header h1 {
+  float: left;
+  width: 4.00rem;
+  height: 0.97rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 p {
+  float: left;
+  width: 2rem;
+  background: #008d98;
+  width: 1.94rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+  border: 1px solid #008d98;
+}
+header h1 p:first-child {
+  border-radius: 0.1rem 0 0 0.1rem;
+}
+header h1 p:last-child {
+  border-radius: 0 0.1rem 0.1rem 0;
+}
+header h1 .active {
+  background-color: #fff;
+  color: #008d98;
+}
+header a:last-child {
+  display: block;
+  float: right;
+  color: #fff;
+  width: 1rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  background: #008d98;
+  margin: 0.14rem 0.19rem 0 0;
+  text-align: center;
+  border-radius: 0.07rem;
+}
+html,
+body {
+  height: 100%;
+}
+/*脚部菜单*/
+.footer {
+  width: 7.2rem;
+  position: fixed;
+  bottom: 0;
+  height: 1.0rem;
+  background: #272727;
+  z-index: 99;
+}
+.footer ul li {
+  width: 1.44rem;
+  float: left;
+  height: 1.0rem;
+  text-align: center;
+}
+.footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #7b7b7b;
+  overflow: hidden;
+}
+.footer ul li a p {
+  width: 0.65rem;
+  height: 0.38rem;
+  overflow: hidden;
+  margin-top: 0.12rem;
+  position: relative;
+}
+.footer ul li a p i {
+  position: absolute;
+  top: 0 ;
+  right: 0;
+  font-size: 0.18rem;
+  display: block;
+  width: 0.2rem;
+  height: 0.2rem;
+  text-align: center;
+  line-height: 0.2rem;
+  background-color: #ff6000;
+  border-radius: 0.8rem;
+  color: #fff;
+}
+.footer ul li a span {
+  font-family: "微软雅黑";
+  font-size: 0.2rem;
+}
+.footer ul li:first-child p {
+  background-position: 0.18rem top;
+}
+.footer ul li:first-child .active {
+  background-position: 0.18rem -0.36rem;
+}
+.footer ul li:nth-child(2) p {
+  background-position: -0.36rem top;
+}
+.footer ul li:nth-child(2) .active {
+  background-position: -0.36rem -0.36rem;
+}
+.footer ul li:nth-child(3) p {
+  background-position: -0.88rem top;
+}
+.footer ul li:nth-child(3) .active {
+  background-position: -0.88rem -0.36rem;
+}
+.footer ul li:nth-child(4) p {
+  background-position: -1.48rem top;
+}
+.footer ul li:nth-child(4) .active {
+  background-position: -1.48rem -0.36rem;
+}
+.footer ul li:last-child p {
+  background-position: -2.09rem top;
+}
+.footer ul li:last-child .active {
+  background-position: -2.09rem -0.36rem;
+}
+.footer ul .active {
+  background-color: #1f1f1f;
+}
+.footer ul .active span {
+  color: #00abb8;
+}
+/**/
+.info {
+  height: 1.60rem;
+  border-bottom: 2px;
+  display: flex;
+  background: #fff;
+  border-bottom: 2px solid #dcdcdc;
+  padding-top: 0.2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.info .img {
+  width: 1.0rem;
+  height: 1rem;
+  border-radius: 0.09rem;
+  background-color: #ccc;
+  overflow: hidden;
+  margin-left: 0.1rem;
+}
+.info .img img {
+  width: 100%;
+  height: 100%;
+}
+.info .main {
+  margin-left: 0.1rem;
+}
+.info .main h1 {
+  padding-right: 0.4rem;
+  background: url(../images/list_a2.png) no-repeat right center;
+  background-size: 0.32rem 0.25rem;
+  font-size: 0.28rem;
+  height: 0.47rem;
+  line-height: 0.47rem;
+  font-weight: bold;
+  width: 1.35rem;
+}
+.info .main ul li {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  float: left;
+  border-radius: 0.04rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 0.04rem;
+  font-size: 0.24rem;
+}
+.info .main ul li:first-child {
+  padding-left: 0.18rem;
+  width: 0.80rem;
+  background: url(../images/list_a3.png) no-repeat 0.16rem center #ffaed8;
+  background-size: 0.24rem 0.24rem;
+}
+.info .main ul li:nth-child(2) {
+  background: #2fc8d4;
+  width: 0.7rem;
+}
+.info .main ul li:nth-child(3) {
+  background: #8ac935;
+  width: 0.7rem;
+}
+.info .main ul li:last-child {
+  background: #d9a7f4;
+  width: 0.9rem;
+}
+.info .shijian {
+  margin-right: 0.1rem;
+}
+.info .shijian p {
+  color: #bababa;
+  font-size: 0.22rem;
+  text-align: right;
+}
+.info .shijian i {
+  color: #888888;
+  font-size: 0.24rem;
+  display: block;
+  text-align: right;
+  margin-top: 0.26rem;
+}
+/**/
+.sound {
+  width: 6.56rem;
+  height: 1.2rem;
+  border: 2px solid #ccc;
+  border-top-color: #000;
+  margin-top: 0.3rem;
+}
+.sound img {
+  float: left;
+  width: 0.63rem;
+  height: 0.67rem;
+  margin: 0.25rem 0.1rem 0 0.25rem;
+}
+.sound h2 {
+  margin-top: 0.2rem;
+  height: 0.8rem;
+  line-height: 0.4rem;
+  font-size: 0.28rem;
+  width: 5.6rem;
+}
+.sound h2 p {
+  font-size: 0.2rem;
+  color: #666;
+}
+.sound h2 p span {
+  color: #f44eab;
+  font-weight: bold;
+}
+/*19,21*/
+.center {
+  height: 3.59rem;
+  width: 100%;
+  position: relative;
+  background: url(../images/19_bg.jpg) no-repeat;
+  background-size: 7.2rem 3.59rem;
+}
+.center img {
+  width: 100%;
+  height: 100%;
+}
+.center .t_img {
+  height: 2.52rem;
+  width: 6.16rem;
+  margin: 0 auto;
+  padding-top: 0.38rem;
+}
+.center .t_img a {
+  display: block;
+  border: 4px solid #525774;
+  float: left;
+  overflow: hidden;
+}
+.center .t_img a img {
+  width: 100%;
+  height: 100%;
+}
+.center .t_img a:first-child {
+  border-radius: 0.69rem;
+  width: 1.30rem;
+  height: 1.30rem;
+}
+.center .t_img a:nth-child(2) {
+  border-radius: 1.19rem;
+  width: 2.20rem;
+  height: 2.20rem;
+  margin: 0 0.41rem;
+  border-color: #838e77;
+}
+.center .t_img a:last-child {
+  border-radius: 0.69rem;
+  width: 1.30rem;
+  height: 1.30rem;
+  border-color: #758176;
+}
+.center h3 {
+  text-align: center;
+  color: #fff;
+}
+/**/
+.iff {
+  width: 6.54rem;
+}
+.iff ul {
+  border: 1px solid #ccc;
+  border-radius: 0.1rem;
+  margin-top: 0.39rem;
+  background-color: #fff;
+}
+.iff ul li {
+  height: 0.85rem;
+  line-height: 0.85rem;
+  border-bottom: 1px solid #ccc;
+}
+.iff ul li i {
+  display: block;
+  width: 1.68rem;
+  float: left;
+  border-right: 1px solid #ccc;
+  text-indent: 0.25rem;
+  font-weight: bolder;
+}
+.iff ul li span {
+  margin-left: 0.25rem;
+  color: #888;
+}
+.iff ul li:last-child {
+  border-bottom: 0px;
+}
+/**/
+.tab_b {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 1.33rem;
+  align-items: center;
+}
+.tab_b a {
+  display: inline-block;
+  width: 2.01rem;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  background-color: #00a9b6;
+  border-radius: 0.1rem;
+  color: #fff;
+}
+.tab_b p {
+  width: 2.01rem;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  background-color: #ccc;
+  border-radius: 0.1rem;
+}
+/*----------------------------01引导页-----------------------------*/
+.mobile01 {
+  color: #fff;
+  position: relative;
+  height: 11rem;
+  overflow: hidden;
+}
+.mobile01 .bigbanner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.mobile01 .banner {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  width: 300%;
+  transition: all 0.5s;
+}
+.mobile01 .banner img {
+  width: 33.3333333%;
+  border: 0;
+  outline: none;
+  float: left;
+}
+.mobile01 .bigbox {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  height: 5.0rem;
+}
+.mobile01 .bigbox h1 {
+  font-size: 0.3rem;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.mobile01 .bigbox .register {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+}
+.mobile01 .bigbox .register a {
+  display: inline-block;
+  width: 3.08rem;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  text-align: center;
+  color: #fff;
+  background-color: #919191;
+  border-radius: 0.1rem;
+}
+.mobile01 .bigbox .register a:first-child {
+  margin-left: 0.2rem;
+}
+.mobile01 .bigbox .register a:last-child {
+  margin-right: 0.2rem;
+  background-color: #df401f;
+}
+.mobile01 .bigbox .other {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 5.6rem;
+  margin: 0 auto;
+  padding-top: 0.25rem;
+  /*注意span,display:block;*/
+}
+.mobile01 .bigbox .other span {
+  display: block;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  width: 1.8rem;
+}
+.mobile01 .bigbox .other a {
+  width: 0.68rem;
+  height: 0.68rem;
+  display: inline-block;
+  margin: 0 0.1rem;
+  border-radius: 0.07rem;
+  background-position: -0.7rem center;
+}
+.mobile01 .bigbox .other a:nth-child(2) {
+  background-color: #0068b7;
+}
+.mobile01 .bigbox .other a:nth-child(3) {
+  background-color: #ff9900;
+}
+.mobile01 .bigbox .other a:nth-child(4) {
+  background-color: #3b5997;
+}
+.mobile01 .bigbox .other a:last-child {
+  background-color: #53c1df;
+}
+.mobile01 .bigbox .tab {
+  width: 0.60rem;
+  margin: 0 auto;
+  padding-top: 0.49rem;
+}
+.mobile01 .bigbox .tab a {
+  display: inline-block;
+  width: 0.10rem;
+  height: 0.1rem;
+  border-radius: 0.04rem;
+  background: #666666;
+}
+.mobile01 .bigbox .tab .active {
+  background: #fff;
+}
+/*--------------------------------02登录--------------------------------*/
+.mobile02 {
+  background: #eeeeee;
+  height: 100%;
+}
+.mobile02 .content {
+  padding-top: 0.4rem;
+}
+.mobile02 .content .form1 {
+  width: 6.56rem;
+  margin: 0 auto;
+}
+.mobile02 .content .form1 .box span {
+  display: inline-block;
+  width: 1.1rem;
+  height: 0.9rem;
+  float: left;
+  border: 1px solid #ccc;
+  background-position: 0.1rem center;
+}
+.mobile02 .content .form1 .box input {
+  height: 0.9rem;
+  flex: 1;
+  border: 1px solid #ccc;
+  width: 5.35rem;
+  text-indent: 0.3rem;
+  outline: none;
+}
+.mobile02 .content .form1 .box .tel {
+  display: flex;
+}
+.mobile02 .content .form1 .box .tel span {
+  border-radius: 0.14rem 0 0 0;
+}
+.mobile02 .content .form1 .box .tel input {
+  border-radius: 0 0.14rem 0 0;
+}
+.mobile02 .content .form1 .box .word span {
+  border-radius: 0 0 0 0.14rem;
+  background-position: -0.8rem center;
+}
+.mobile02 .content .form1 .box .word input {
+  border-radius: 0 0 0.14rem 0;
+}
+.mobile02 .content .form1 .checkbox {
+  height: 0.9rem;
+  margin-top: 0.3rem;
+}
+.mobile02 .content .form1 .checkbox span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.9rem;
+  outline: none;
+  background-position: -2.78rem top;
+  float: left;
+}
+.mobile02 .content .form1 .checkbox i {
+  display: inline-block;
+  width: 4.5rem;
+  height: 0.9rem;
+  color: #666666;
+}
+.mobile02 .content .form1 .checkbox a {
+  color: #999999;
+}
+.mobile02 .content .form1 .submit {
+  display: block;
+  border: 0px;
+  width: 6.0rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-radius: 0.1rem;
+  background-color: #00a9b6;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+.mobile02 .content .share h3 {
+  color: #999999;
+  font-size: 0.22rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.mobile02 .content .share h3 span {
+  display: inline-block;
+  height: 1px;
+  background: #dcdcdc;
+  width: 1.79rem;
+  margin: 0 0.1rem;
+  position: relative;
+  top: -0.05rem;
+}
+.mobile02 .content .share a {
+  display: block;
+  width: 6.06rem;
+  height: 0.88rem;
+  background-color: #ccc;
+  border-radius: 0.09rem;
+  margin: 0 auto 0.2rem auto;
+  text-align: center;
+  line-height: 0.88rem;
+  color: #000;
+}
+.mobile02 .content .share a span {
+  display: inline-block;
+  width: 0.42rem ;
+  height: 0.42rem;
+  margin-right: 0.1rem;
+}
+.mobile02 .content .share a:nth-child(2) span {
+  background-position: 0 top;
+  position: relative;
+  top: 0.1rem;
+}
+.mobile02 .content .share a:last-child span {
+  background-position: -1.59rem top;
+  position: relative;
+  top: 0.1rem;
+}
+/*--------------------------------03注册--------------------------------*/
+.mobile03 {
+  font-family: "微软雅黑";
+  background: #eeeeee;
+  height: 100%;
+}
+.mobile03 .content {
+  padding-top: 0.4rem;
+}
+.mobile03 .content .form1 {
+  width: 6.56rem;
+  margin: 0 auto;
+}
+.mobile03 .content .form1 .box span {
+  display: inline-block;
+  width: 1.1rem;
+  height: 0.9rem;
+  float: left;
+  border: 1px solid #ccc;
+  background-position: 0.08rem center;
+}
+.mobile03 .content .form1 .box input {
+  height: 0.9rem;
+  flex: 1;
+  border: 1px solid #ccc;
+  width: 5.35rem;
+  text-indent: 0.3rem;
+  outline: none;
+}
+.mobile03 .content .form1 .box .tel {
+  display: flex;
+}
+.mobile03 .content .form1 .box .tel span {
+  border-radius: 0.14rem 0 0 0;
+}
+.mobile03 .content .form1 .box .tel input {
+  border-radius: 0 0.14rem 0 0;
+}
+.mobile03 .content .form1 .box .word span {
+  border-radius: 0 0 0 0.14rem;
+  background-position: -0.8rem center;
+}
+.mobile03 .content .form1 .box .word input {
+  border-radius: 0 0 0.14rem 0;
+}
+.mobile03 .content .form1 .checkbox {
+  height: 0.9rem;
+  margin-top: 0.3rem;
+  font-size: 0.24rem;
+  color: #999999;
+}
+.mobile03 .content .form1 .checkbox span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.9rem;
+  outline: none;
+  background-position: -2rem top;
+  float: left;
+}
+.mobile03 .content .form1 .checkbox i {
+  display: inline-block;
+  width: 5.5rem;
+  height: 0.9rem;
+}
+.mobile03 .content .form1 .checkbox a {
+  color: #00a9b6;
+}
+/*--------------------------------04验证激活--------------------------------*/
+.mobile04 {
+  font-family: "微软雅黑";
+  background: #eeeeee;
+  height: 100%;
+}
+.mobile04 .content {
+  width: 92%;
+}
+.mobile04 .content .tel {
+  height: 1.36rem;
+  line-height: 1.36rem;
+  color: #999999;
+  overflow: hidden;
+}
+.mobile04 .content .tel .replace a {
+  font-weight: bold;
+  color: #000;
+}
+.mobile04 .content .code {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+.mobile04 .content .code input {
+  width: 3.6rem;
+  height: 0.88rem;
+  border: 2px solid #ccc;
+  outline: none;
+  border-radius: 0.11rem;
+  text-indent: 0.28rem;
+  font-family: "微软雅黑";
+}
+.mobile04 .content .code span {
+  float: right;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background-color: #00a9b6;
+  color: #fff;
+  margin-left: 0.2rem;
+  padding: 0 0.20rem;
+  border-radius: 0.11rem;
+}
+/*--------------------------------05更换手机号码--------------------------------*/
+.mobile05 {
+  font-family: "微软雅黑";
+  background: #eeeeee;
+  height: 100%;
+}
+.mobile05 .content {
+  width: 6.6rem;
+  margin-top: 0.48rem;
+  position: relative;
+}
+.mobile05 .content input {
+  width: 85%;
+  height: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 0.16rem;
+  outline: none;
+  padding: 0 10% 0 0.28rem;
+}
+.mobile05 .content a {
+  width: 10%;
+  height: 0.9rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../images/tel.png) no-repeat;
+  background-size: 0.36rem 0.36rem;
+  background-position: left center;
+  display: none;
+}
+/*--------------------------------06填写资料--------------------------------*/
+.html06 {
+  height: auto;
+}
+.mobile06 {
+  height: 100%;
+  font-family: "微软雅黑";
+  background: #eeeeee;
+  position: relative;
+}
+.mobile06 .content {
+  padding-top: 0.4rem;
+  width: 6.61rem;
+  /*表格,圆角，单线模块*/
+}
+.mobile06 .content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px #d4d8da;
+}
+.mobile06 .content table tr td {
+  background: #fff;
+  position: relative;
+  border-right: 1px solid #d4d8da;
+  border-bottom: 1px solid #d4d8da;
+}
+.mobile06 .content table tr td:first-child {
+  border-left: 1px solid #d4d8da;
+  color: #000;
+}
+.mobile06 .content table tr:first-child td:first-child {
+  border-top: 1px solid #d4d8da;
+  border-radius: 0.16rem 0 0 0;
+}
+.mobile06 .content table tr:first-child td:last-child {
+  border-top: 1px solid #d4d8da;
+  border-radius: 0 0.16rem 0 0;
+}
+.mobile06 .content table tr:last-child td:first-child {
+  border-radius: 0 0 0 0.16rem;
+}
+.mobile06 .content table tr:last-child td:last-child {
+  border-radius: 0 0 0.16rem 0;
+}
+.mobile06 .content table input {
+  border: 1px solid #fff;
+  width: 4rem;
+  height: 100%;
+  outline: none;
+  font-family: "微软雅黑";
+  font-size: 0.28rem;
+}
+.mobile06 .content table .drop_xueli {
+  position: absolute;
+  left: -1px;
+  top: 0.96rem;
+  background: #888;
+  width: 99.999999%;
+  color: #fff;
+  z-index: 99;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  overflow: hidden;
+  height: 0;
+  transition: all .5s;
+}
+.mobile06 .content table .drop_xueli p {
+  border-bottom: 1px solid #ccc;
+  height: 0.86rem;
+  color: #fff;
+}
+.mobile06 .content .table1 {
+  width: 6.61rem;
+  margin-bottom: 0.25rem;
+}
+.mobile06 .content .table1 tr td {
+  height: 0.86rem;
+  line-height: 0.86rem;
+  text-indent: 0.26rem;
+}
+.mobile06 .content .table1 tr td i {
+  float: right;
+  width: 0.59rem;
+  height: 0.86rem;
+  background: url(../images/drop.png) no-repeat;
+  background-size: 0.59rem 0.86rem;
+  cursor: pointer;
+}
+.mobile06 .content .table1 tr td input {
+  display: none;
+}
+.mobile06 .content .table1 tr td:first-child {
+  width: 1.75rem;
+  color: #000;
+  font-weight: bold;
+}
+.mobile06 .content .table1 tr td:last-child {
+  color: #cccccc;
+}
+.mobile06 .content .table1 tr:first-child td:last-child {
+  color: #888888;
+}
+.mobile06 .content .table1 tr:first-child span {
+  background-position: -0.42rem 0.25rem;
+  display: inline-block;
+  width: 0.4rem;
+  height: 100%;
+}
+.mobile06 .content .table1 tr:last-child td:last-child {
+  color: #888888;
+}
+.mobile06 .content .table2 {
+  width: 6.61rem;
+  margin-top: 0.25rem;
+  padding-bottom: 0.6rem;
+}
+.mobile06 .content .table2 tr td {
+  height: 0.86rem;
+  line-height: 0.86rem;
+  text-indent: 0.26rem;
+}
+.mobile06 .content .table2 tr td i {
+  float: right;
+  width: 0.59rem;
+  height: 0.86rem;
+  background: url(../images/drop.png) no-repeat;
+  background-size: 0.59rem 0.86rem;
+  cursor: pointer;
+}
+.mobile06 .content .table2 tr td:first-child {
+  width: 1.75rem;
+  color: #000;
+  font-weight: bold;
+}
+.mobile06 .content .table2 tr td:last-child {
+  color: #ccc;
+}
+.mobile06 .content .table2 .drop_xueli {
+  top: -2.6rem;
+}
+/*--------------------------------07上传头像--------------------------------*/
+.mobile07 {
+  height: 100%;
+  font-family: "微软雅黑";
+  background: #eeeeee;
+  position: relative;
+}
+.mobile07 .content {
+  width: 5.7rem;
+  margin-top: 0.6rem;
+}
+.mobile07 .content .addbox {
+  background: #fff;
+  border-radius: 0.12rem;
+  border: 1px solid #ccc;
+  height: 5.02rem;
+}
+.mobile07 .content .addbox .addimg {
+  text-align: center;
+}
+.mobile07 .content .addbox .addimg p {
+  width: 2.4rem;
+  height: 2.4rem;
+  background: #ccc;
+  border-radius: 0.12rem;
+  color: #fff;
+  margin: 0.5rem auto 0.3rem auto;
+  overflow: hidden;
+}
+.mobile07 .content .addbox .addimg p img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.mobile07 .content .addbox .addimg .button {
+  display: block;
+  margin: 0 auto;
+  width: 2.97rem;
+  height: 0.85rem;
+  line-height: 0.85rem;
+  border-radius: 0.1rem;
+  background-color: #00a9b6;
+  border: 0px;
+  outline: none;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 0.24rem;
+}
+.mobile07 .content .addbox .addimg span {
+  display: block;
+  margin-top: 0.2rem;
+  color: #888888;
+}
+.mobile07 .content > p {
+  height: 0.84rem;
+  line-height: 0.84rem;
+  text-indent: 0.2rem;
+}
+.mobile07 .content .mm {
+  height: 5.73rem;
+  height: 3.84rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.mobile07 .content .mm img {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-bottom: 0.05rem;
+}
+/*--------------------------------08上传头像--------------------------------*/
+.mobile08 {
+  background: #eeeeee;
+  height: 100%;
+}
+.mobile08 .content {
+  padding-top: 0.4rem;
+}
+.mobile08 .from1 {
+  width: 6.56rem;
+  margin: 0 auto;
+}
+.mobile08 .from1 .box {
+  margin-bottom: 0.26rem;
+}
+.mobile08 .from1 .box span {
+  display: inline-block;
+  width: 1.1rem;
+  height: 0.9rem;
+  float: left;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  background-position: -3.25rem center;
+}
+.mobile08 .from1 .box input {
+  height: 0.9rem;
+  flex: 1;
+  border: 1px solid #ccc;
+  width: 5.35rem;
+  text-indent: 0.3rem;
+  outline: none;
+}
+.mobile08 .from1 .box .word {
+  display: flex;
+}
+.mobile08 .from1 .box .word span {
+  border-radius: 0.14rem 0 0 0;
+}
+.mobile08 .from1 .box .word input {
+  border-radius: 0 0.14rem 0 0;
+}
+.mobile08 .from1 .box .newword span {
+  background-position: -0.8rem center;
+}
+.mobile08 .from1 .box .enterword span {
+  border-radius: 0 0 0 0.14rem;
+  background-position: -0.8rem center;
+}
+.mobile08 .from1 .box .enterword input {
+  border-radius: 0 0 0.14rem 0;
+}
+.mobile08 .from1 .submit {
+  display: block;
+  border: 0px;
+  width: 6.0rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-radius: 0.1rem;
+  background-color: #00a9b6;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 0.3rem;
+  font-size: 0.24rem;
+}
+/*--------------------------------09列表--------------------------------*/
+.mobile09 {
+  background: #eeeeee;
+  padding-bottom: 1.0rem;
+}
+.mobile09 .header {
+  height: 0.96rem;
+  background-color: #00a9b6;
+  border-bottom: 2px solid #00767f;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 0.15rem 0.1rem 0 0.1rem;
+}
+.mobile09 .header a {
+  width: 1.1rem;
+  height: 0.68rem;
+  background: #008d98;
+  text-align: center;
+  line-height: 0.68rem;
+  border-radius: 0.07rem;
+  display: block;
+  float: left;
+  color: #fff;
+}
+.mobile09 .header .tab {
+  overflow: hidden;
+  float: left;
+  background: #008d98;
+  border-radius: 0.07rem;
+  border: 1px solid #008d98;
+  margin-left: 0.3rem;
+  height: 0.58rem;
+}
+.mobile09 .header .tab a {
+  width: 1.96rem;
+  height: 0.58rem;
+  line-height: 0.59rem;
+}
+.mobile09 .header .tab .active {
+  background: #fff;
+  color: #008d98;
+}
+.mobile09 .header a:last-child {
+  float: right;
+}
+.mobile09 .content .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.3rem 0;
+}
+.mobile09 .content .box img {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0.05rem;
+}
+.mobile09 .content .join {
+  width: 6.6rem;
+  margin: 0 auto;
+}
+.mobile09 .content .join p {
+  font-weight: bold;
+  font-size: 0.26rem;
+}
+.mobile09 .content .join p span {
+  color: #00abb8;
+}
+.mobile09 .content .join a {
+  display: inline-block;
+  line-height: 0.8rem;
+  text-align: center;
+  background: #00abb8;
+  border-radius: 0.10rem;
+  color: #fff;
+  margin-top: 0.24rem;
+  padding: 0 0.1rem;
+}
+.mobile09 .content .join a:last-child {
+  background-color: #76b81d;
+}
+.mobile09 .content .pinjia p {
+  width: 6.6rem;
+  margin: 0 auto;
+  color: #b5b5b5;
+  height: 0.78rem;
+  line-height: 0.78rem;
+}
+.mobile09 .content .pinjia .fankui {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #b5b5b5;
+  height: 0.79rem;
+  line-height: 0.79rem;
+  box-shadow: 0 1px 4px #545252;
+  margin-bottom: 0.2rem;
+  padding: 0 0.3rem;
+}
+.mobile09 .content .pinjia .fankui a {
+  padding-left: 0.46rem;
+  display: inline-block;
+  color: #666666;
+}
+.mobile09 .content .pinjia .fankui a span {
+  background: #eeeeee;
+  display: inline-block;
+  padding-right: 0.2rem;
+}
+.mobile09 .content .pinjia .fankui a:first-child {
+  background-position: -2.8rem 0.22rem;
+}
+.mobile09 .content .pinjia .fankui a:nth-child(2) {
+  background-position: -3.4rem 0.22rem;
+}
+.mobile09 .content .pinjia .fankui a:last-child {
+  background-position: -3.9rem 0.22rem;
+  float: right;
+}
+/*--------------------------------10留言/17消息--------------------------------*/
+.mobile10,
+.mobile17 {
+  background: #eeeeee;
+  padding-bottom: 1.0rem;
+}
+.mobile10 .listliuyan h1,
+.mobile17 .listliuyan h1 {
+  color: #76b81d;
+  border-bottom: 2px solid #76b81d;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-indent: 0.2rem;
+  background-color: #fff;
+  margin-top: 0.2rem;
+}
+.mobile10 .listliuyan ul li,
+.mobile17 .listliuyan ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #ffffff;
+  height: 1.42rem;
+}
+.mobile10 .listliuyan ul li .img,
+.mobile17 .listliuyan ul li .img {
+  width: 1.0rem;
+  height: 1.0rem;
+  border-radius: 0.10rem;
+  overflow: hidden;
+}
+.mobile10 .listliuyan ul li .img img,
+.mobile17 .listliuyan ul li .img img {
+  width: 100%;
+  height: 100%;
+}
+.mobile10 .listliuyan ul li h2,
+.mobile17 .listliuyan ul li h2 {
+  color: #00a9b6;
+  font-size: 0.3rem;
+}
+.mobile10 .listliuyan ul li h2 p,
+.mobile17 .listliuyan ul li h2 p {
+  color: #666;
+  font-size: 0.26rem;
+  width: 3.27rem;
+  height: 0.34rem;
+  overflow: hidden;
+}
+.mobile10 .listliuyan ul li .newtime p,
+.mobile17 .listliuyan ul li .newtime p {
+  width: 2rem;
+  color: #bababa;
+  font-size: 0.24rem;
+  text-align: right;
+}
+.mobile10 .listliuyan ul li:nth-child(2n-1),
+.mobile17 .listliuyan ul li:nth-child(2n-1) {
+  border-top: 1px solid #ccc;
+}
+.mobile10 .listliuyan ul li:nth-child(2n+1),
+.mobile17 .listliuyan ul li:nth-child(2n+1) {
+  border-bottom: 1px solid #ccc;
+}
+.mobile10 .foot,
+.mobile17 .foot {
+  height: 0.93rem;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+}
+.mobile10 .foot ul li,
+.mobile17 .foot ul li {
+  float: left;
+  width: 2.4rem;
+  height: 0.93rem;
+  line-height: 0.93rem;
+}
+.mobile10 .foot ul li a,
+.mobile17 .foot ul li a {
+  display: block;
+  width: 1.35rem;
+  height: 100%;
+  color: #fff;
+  margin: 0 auto;
+}
+.mobile10 .foot ul li a span,
+.mobile17 .foot ul li a span {
+  float: left;
+  width: 0.55rem;
+  height: 100%;
+}
+.mobile10 .foot ul li:first-child span,
+.mobile17 .foot ul li:first-child span {
+  background-position: left  center;
+}
+.mobile10 .foot ul li:nth-child(2) span,
+.mobile17 .foot ul li:nth-child(2) span {
+  background-position: -0.6rem center;
+}
+.mobile10 .foot ul li:last-child span,
+.mobile17 .foot ul li:last-child span {
+  background-position: -1.3rem center;
+}
+.mobile17 {
+  background-color: #fff;
+}
+/*--------------------------------11发布约会--------------------------------*/
+.mobile11 {
+  padding-bottom: 1.0rem;
+}
+.mobile11 .content ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.89rem;
+}
+.mobile11 .content ul li .img img {
+  width: 1.0rem;
+  height: 1.0rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.mobile11 .content ul li .img h2 {
+  color: #000;
+  font-size: 0.28rem;
+  font-weight: bold;
+}
+.mobile11 .content ul li .img p {
+  color: #666;
+  font-size: 0.26rem;
+  height: 0.70rem;
+  width: 6.1rem;
+}
+.mobile11 .content ul li a {
+  color: #ccc;
+  font-family: "微软雅黑";
+  font-size: 0.38rem;
+  font-weight: bolder;
+}
+.mobile11 .content ul li:nth-child(2n-1) {
+  border-top: 1px solid #ccc;
+}
+.mobile11 .content ul li:nth-child(2n+1) {
+  border-bottom: 1px solid #ccc;
+}
+/*--------------------------------12现金约会/13约会礼物--------------------------------*/
+.mobile12 {
+  padding-bottom: 1.0rem;
+}
+.mobile12 .content .fukuan {
+  width: 6.6rem;
+  margin-top: 0.37rem;
+}
+.mobile12 .content .fukuan .money {
+  border: 1px solid #ccc;
+  border-radius: 0.08rem;
+  overflow: hidden;
+  margin-top: 0.15rem;
+}
+.mobile12 .content .fukuan .money span {
+  display: inline-block;
+  width: 0.86rem;
+  height: 0.73rem;
+  background-color: #00a9b5;
+  text-align: center;
+  line-height: 0.73rem;
+  color: #fff;
+  float: left;
+}
+.mobile12 .content .fukuan .money input {
+  height: 0.70rem;
+  border: none;
+  outline: none;
+  width: 5.08rem;
+  text-indent: 0.1rem;
+}
+.mobile12 .content .yuehui {
+  width: 6.6rem;
+  margin: 0.4rem auto;
+}
+.mobile12 .content .yuehui h2 {
+  margin-bottom: 0.15rem;
+}
+.mobile12 .content .yuehui .yuehui_main {
+  height: 3.4rem;
+  border: 1px solid #ccc;
+  padding: 0 0.1rem;
+}
+.mobile12 .content .yuehui .yuehui_main ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.mobile12 .content .yuehui .yuehui_main ul li {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #dde6e7;
+  margin-top: 0.08rem;
+  float: left;
+  *margin-top: 0.1rem;
+}
+.mobile12 .content .yuehui .yuehui_main ul li a {
+  color: #666666;
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mobile12 .content .yuehui .yuehui_main ul li a img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.mobile12 .content .yuehui .yuehui_main ul li a p {
+  margin-top: 0.1rem;
+}
+.mobile12 .content .yuehui .yuehui_main ul li a .active {
+  color: #00a9b5;
+}
+.mobile12 .content .jianyi {
+  width: 6.6rem;
+  height: 1.18rem;
+  border: 2px solid #ccc;
+  border-top-color: #000;
+  margin-bottom: 0.1rem;
+}
+.mobile12 .content .jianyi img {
+  float: left;
+  width: 0.6rem;
+  height: 0.7rem;
+  margin: 0.24rem;
+}
+.mobile12 .content .jianyi p {
+  height: 1.18rem;
+  margin-top: 0.24rem;
+}
+/*--------------------------------14发布欣照--------------------------------*/
+.mobile14 .content {
+  width: 6.6rem;
+}
+.mobile14 h2 {
+  font-weight: bold;
+  font-size: 0.26rem;
+  margin-top: 0.16rem;
+  height: 0.57rem;
+  line-height: 0.57rem;
+}
+.mobile14 textarea {
+  width: 6.6rem;
+  max-width: 6.6rem;
+  min-width: 6.6rem;
+  height: 1.65rem;
+  max-height: 1.65rem;
+  min-height: 1.65rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+  font-family: "微软雅黑";
+}
+.mobile14 .img img {
+  width: 2.1rem;
+  height: 2.1rem;
+  float: left;
+  margin: 0.05rem;
+}
+.mobile14 .button {
+  background: url(../images/add.png) no-repeat;
+  background-size: 2.1rem 2.1rem;
+  display: block;
+  width: 2.1rem;
+  height: 2.1rem;
+  float: left;
+  margin: 0.04rem;
+}
+/*--------------------------------15商城--------------------------------*/
+.mobile15 {
+  padding-bottom: 1.0rem;
+}
+.mobile15 .content {
+  width: 6.6rem;
+}
+.mobile15 .content .img img {
+  width: 1.61rem;
+  height: 1.61rem;
+  float: left;
+  margin: 0.02rem;
+}
+.mobile15 .content .img span {
+  color: #f2219e;
+}
+.mobile15 .content .jinbi h2 {
+  font-size: 0.26rem;
+  font-weight: bold;
+  height: 0.4rem;
+  margin-top: 0.37rem;
+}
+.mobile15 .content .jinbi h2 p {
+  float: right;
+  color: #999999;
+}
+.mobile15 .content .jinbi h2 p span {
+  color: #f2219e;
+  font-weight: bold;
+}
+.mobile15 .content .jinbi ul {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 2px solid #00a9b6;
+}
+.mobile15 .content .jinbi ul li {
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  height: 0.78rem;
+  line-height: 0.78rem;
+  color: #666;
+}
+.mobile15 .content .jinbi ul li p {
+  float: left;
+  width: 0.42rem;
+  height: 0.42rem;
+  background-position: -0.45rem top;
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+}
+.mobile15 .content .jinbi ul li span {
+  float: right;
+  margin-right: 0.1rem;
+}
+.mobile15 .content .jinbi .active {
+  color: #00a9b6;
+}
+.mobile15 .content .jinbi .active p {
+  background-position: left top;
+}
+.mobile15 .content .jinbi .listlast {
+  margin-bottom: 0.26rem;
+}
+.mobile15 .content .jinbi .listlast a {
+  width: 3.00rem;
+  display: inline-block;
+}
+.mobile15 .content .jinbi .listlast a:last-child {
+  margin-left: 0.2rem;
+  color: #000;
+  background-color: #cccccc;
+}
+.mobile15 .content .btn {
+  padding: 0.15rem;
+  border: 1px solid #ccc;
+  border-top: 0px;
+}
+.mobile15 .content .btn a {
+  display: block;
+  width: 90%;
+  height: 0.78rem;
+  line-height: 0.78rem;
+  background-color: #76b81d;
+  color: #fff;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+/*--------------------------------16商城2--------------------------------*/
+.mobile16 .content {
+  width: 6.6rem;
+}
+.mobile16 .content .img img {
+  width: 1.61rem;
+  height: 1.61rem;
+  float: left;
+  margin: 0.02rem;
+}
+.mobile16 .content .number h2 {
+  font-size: 0.26rem;
+  font-weight: bold;
+  height: 0.4rem;
+  margin-top: 0.37rem;
+}
+.mobile16 .content .number h2 p {
+  color: #999999;
+  float: right;
+}
+.mobile16 .content .number h2 p span {
+  color: #f2219e;
+  font-weight: bold;
+}
+.mobile16 .content .number ul {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 2px solid #00a9b6;
+}
+.mobile16 .content .number ul li {
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  height: 0.78rem;
+  line-height: 0.78rem;
+  color: #00a9b6;
+}
+.mobile16 .content .number ul li p {
+  float: left;
+  width: 0.42rem;
+  height: 0.42rem;
+  background-position: left  top;
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+}
+.mobile16 .content .number ul li span {
+  float: right;
+  margin-right: 0.1rem;
+}
+.mobile16 .content .zhifubao h2 {
+  font-size: 0.26rem;
+  font-weight: bold;
+  height: 0.4rem;
+  margin-top: 0.37rem;
+}
+.mobile16 .content .zhifubao form {
+  border-top: 2px solid #00a9b6;
+  margin-top: 0.2rem;
+}
+.mobile16 .content .zhifubao form div {
+  border: 1px solid #ccc;
+  border-top: 0px;
+  height: 0.79rem;
+}
+.mobile16 .content .zhifubao form div span {
+  margin: 0 0.2rem;
+}
+.mobile16 .content .zhifubao form div input {
+  height: 98%;
+  border: none;
+  font-family: "微软雅黑";
+}
+.mobile16 .content .zhifubao form p {
+  color: #7b7b7b;
+  font-size: 0.2rem;
+  margin-top: 0.2rem;
+}
+.mobile16 .content .zhifubao form p i {
+  color: #000;
+  font-weight: bold;
+}
+.mobile16 .content .zhifubao form .submit {
+  width: 6.6rem;
+  height: 0.8rem;
+  border: none;
+  background-color: #76b81d;
+  border-radius: 0.1rem;
+  color: #fff;
+  font-size: 0.26rem;
+  margin-top: 0.2rem;
+}
+/*--------------------------------17消息/10留言--------------------------------*/
+/*--------------------------------18聊天--------------------------------*/
+.mobile18 .content {
+  width: 6.64rem;
+}
+.mobile18 .content .bigbox {
+  margin-top: 0.2rem;
+}
+.mobile18 .content .bigbox .box {
+  display: flex;
+}
+.mobile18 .content .bigbox .box img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.4rem;
+}
+.mobile18 .content .bigbox .box p {
+  max-width: 4.45rem;
+  background-color: #efefef;
+  border-radius: 0.1rem;
+  border: 1px solid #d5d5d5;
+  padding: 0.2rem;
+  position: relative;
+}
+.mobile18 .content .bigbox .box p span {
+  background: url(../images/18_03.png) no-repeat;
+  background-size: 0.1rem 0.19rem;
+  width: 0.1rem;
+  height: 0.19rem;
+  display: inline-block;
+  position: absolute;
+  left: -0.11rem;
+}
+.mobile18 .content .bigbox .boxtime {
+  margin-left: 1.2rem;
+  margin-top: 0.1rem;
+  color: #b6b6b6;
+}
+.mobile18 .content .bigbox .mybox {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.mobile18 .content .bigbox .mybox img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.mobile18 .content .bigbox .mybox p {
+  max-width: 4.45rem;
+  background-color: #ebfeff;
+  border-radius: 0.1rem;
+  border: 1px solid #b3e1e3;
+  padding: 0.2rem;
+  position: relative;
+  word-break: break-all;
+}
+.mobile18 .content .bigbox .mybox p span {
+  background: url(../images/18_01.png) no-repeat;
+  background-size: 0.1rem 0.19rem;
+  width: 0.1rem;
+  height: 0.19rem;
+  display: inline-block;
+  position: absolute;
+  right: -0.11rem;
+}
+.mobile18 .content .bigbox .mytime {
+  margin-top: 0.1rem;
+  color: #b6b6b6;
+  margin-right: 1.2rem;
+  text-align: right;
+}
+.mobile18 .send {
+  width: 100%;
+  height: 0.9rem;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  position: fixed;
+  bottom: 0;
+}
+.mobile18 .send form {
+  display: flex;
+  align-items: center;
+  height: 0.9rem;
+  justify-content: space-around;
+}
+.mobile18 .send form a:first-child {
+  background: url(../images/18_02.png) no-repeat;
+  background-size: 0.58rem  0.58rem;
+  width: 0.58rem;
+  height: 0.58rem;
+  display: inline-block;
+}
+.mobile18 .send form input {
+  width: 5.0rem;
+  border: 1px solid #ccc;
+  height: 0.56rem;
+  text-indent: 0.2rem;
+}
+.mobile18 .send form a:last-child {
+  display: block;
+  width: 0.93rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  background-color: #77b81e;
+  text-align: center;
+}
+/*--------------------------------19个人中心--------------------------------*/
+.mobile19 {
+  padding-bottom: 1.5rem;
+}
+.mobile19 .content ul {
+  width: 6.6rem;
+  margin: 0 auto;
+}
+.mobile19 .content ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.18rem;
+  border-bottom: 1px solid #ccc;
+}
+.mobile19 .content ul li .img img {
+  width: 0.8rem;
+  height: 0.8rem;
+  float: left;
+  margin-right: 0.2rem;
+  margin-top: 0.15rem;
+}
+.mobile19 .content ul li .img h2 {
+  color: #000;
+  font-size: 0.28rem;
+  font-weight: bold;
+  margin-top: 0.15rem;
+}
+.mobile19 .content ul li .img p {
+  color: #999;
+  font-size: 0.26rem;
+  width: 6.1rem;
+}
+.mobile19 .content ul li a {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0.4rem;
+}
+/*--------------------------------20我的相册--------------------------------*/
+.mobile20 .content {
+  width: 6.6rem;
+}
+.mobile20 form {
+  margin-top: 0.3rem;
+}
+.mobile20 .img img {
+  width: 1.61rem;
+  height: 1.61rem;
+  float: left;
+  margin: 0.02rem;
+}
+.mobile20 .button {
+  background: url(../images/add.png) no-repeat;
+  background-size: 1.61rem 1.61rem;
+  display: block;
+  width: 1.61rem;
+  height: 1.63rem;
+  float: left;
+  margin: 0.02rem;
+}
+/*--------------------------------21我的资料--------------------------------*/
+.mobile21 .content {
+  padding-bottom: 1.5rem;
+}
+/*-----------------------------22我的约会-----------------------------*/
+.mobile22 .content .iff ul li:last-child {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0.2rem;
+}
+.mobile22 .content .iff ul li:last-child a {
+  display: inline-block;
+  width: 2.9rem;
+  border-radius: 0.1rem;
+}
+.mobile22 .content .iff ul li:last-child a:first-child {
+  color: #fff;
+  background-color: #00a9b6;
+}
+.mobile22 .content .iff ul li:last-child a:last-child {
+  color: #000;
+  background-color: #cccccc;
+}
+.mobile22 .content .iff ul:last-child li:last-child a {
+  color: #fff;
+  width: 6.16rem;
+  background-color: #77b25d;
+}
+/*-----------------------------23支出------------------------------*/
+.mobile23 .sound {
+  position: relative;
+}
+.mobile23 .sound a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  background-color: #77b25d;
+  width: 2.02rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.1rem;
+  margin-right: 0.2rem;
+  margin-top: 0.2rem;
+}
+/*-----------------------------24谁看过我------------------------------*/
+.mobile24 {
+  font-family: "微软雅黑";
+}
+.mobile24 .content {
+  width: 6.65rem;
+}
+.mobile24 .content ul li h2 {
+  margin-top: 0.3rem;
+  height: 0.60rem;
+}
+.mobile24 .content ul li .img {
+  width: 100%;
+  overflow: hidden;
+}
+.mobile24 .content ul li .img img {
+  width: 1.64rem;
+  height: 1.64rem;
+  float: left;
+  margin: 0.011rem;
+}
