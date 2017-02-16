@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/style.js"></script>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	
+	
+</head>
+<body>
+<div class="mobile01">
+	<div class="bigbanner">
+		<div class="banner">
+			<img src="images/banner1.jpg" alt="">
+			<img src="images/banner2.jpg" alt="">
+			<img src="images/banner3.jpg" alt="">			
+		</div>
+	</div>
+	<div class="bigbox">
+		<h1>超过32,000,000用户，总有适合你的人</h1>
+		<div class="register">
+			<a href="03.html">注册</a>
+			<a href="02.html">登录</a>
+		</div>
+		<div class="other">
+			<span>其他方式登录:</span>
+			<a class="icon2" href=""></a>
+			<a class="icon2" href=""></a>
+			<a class="icon2" href=""></a>
+			<a class="icon2" href=""></a>
+		</div>
+		<div class="tab">
+			<a class="active" href="iavascript:void(0);"></a>
+			<a href="iavascript:void(0);"></a>
+			<a href="iavascript:void(0);"></a>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){
+	var i=0;
+	var t;
+	$('.banner').on({
+		swipeLeft:function(){
+			move('left');
+		},
+		swipeRight:function(){
+			move('right');
+		}
+	})
+	// t=setInterval(function(){
+	// 	move('left');
+	// }, 3000)
+
+	function move(flag){
+		if(flag=='left'){
+			clearInterval(t)
+			i++;
+			if(i>$('.banner img').length-1){
+				i=0;
+			}
+			$('.banner').css({left:-100*i+'%'});
+			$('.tab a').eq(i).addClass('active').siblings().removeClass('active');
+			// t=setInterval(function(){
+			// 	move('left');
+			// }, 3000)
+		}
+		if(flag=='right'){
+			clearInterval(t);
+			i--;
+			if(i<0){
+				i=$('.banner img').length-1;
+			}
+			$('.banner').css({left:-100*i+'%'});
+			$('.tab a').eq(i).addClass('active').siblings().removeClass('active');
+			// t=setInterval(function(){
+			// 	move('left');
+			// }, 3000)
+		}
+
+	}
+	$('.tab').find('a').on('tap click',function(){
+		clearInterval(t)
+		i=$(this).index();
+		$('.banner').css({left:-100*i+'%'});
+		$(this).addClass('active').siblings().removeClass('active');
+		// t=setInterval(function(){
+		// 	move('left');
+		// }, 3000)
+	})
+})	
+</script>
+</body>
+</html>

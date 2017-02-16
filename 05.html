@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/style.js"></script>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	
+</head>
+<body>
+<div class="mobile05">
+	<header>
+		<a href="07.html"></a>
+		<h1>更换手机号</h1>
+		<a href="08.html">保存</a>
+	</header>
+	<div class="content auto">
+		<input type="text" placeholder="输入新号码">
+		<a href="javascript:void(0);"></a>
+	</div>
+</div>
+<script>
+$(function(){
+	$('.content').find('input').on('focus keydown',function(){
+		var text=$(this).val();
+		// alert(text)
+		if(text!=''){
+			$('.content').find('a').css('display','block');
+			$('.content').find('a').on('tag click',function(){
+				$('.content').find('input').val('');
+				$('.content').find('a').css('display','none');
+			})
+		}	
+		else{
+			$('.content').find('a').css('display','none');
+		}
+	})	
+})
+</script>	
+</body>
+</html>

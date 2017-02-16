@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="html06">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/zepto.mdater.css">
+	<script src="js/style.js"></script>
+	<script src="js/zepto.js"></script>
+	<!-- <script src="js/touch.js"></script> -->
+	<script src="js/zepto.mdater.js"></script>
+	
+</head>
+<body>
+<div class="mobile06">
+	<header>
+		<a href="04.html"></a>
+		<h1>填写资料<span>03/03</span></h1>
+		<a href="07.html">下一步</a>
+	</header>
+	<div class="content auto">
+		<form action="">
+			<div class="table1">
+				<table>
+					<tr>    
+						<td>性别:</td>
+						<td>
+							<label><span class="icon3 span1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>男生</label>
+							<label><span class="icon3 span2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>女生</label>
+							<input type="radio" name="a">
+							<input type="radio" name="a">
+						</td>
+					</tr>
+					<tr>
+						<td>生日:</td>
+						<td class="in"><input type="text" class="in" readonly="" ><em class="intext">未选择</em><i></i></td>
+					</tr>
+					<tr>
+						<td>体重:</td>
+						<td class="xueli"><em>未选择</em><i></i>
+							<div class="drop_xueli">
+								<p>大专</p>
+								<p>本科</p>
+								<p>本科以上</p>
+								<p>其他</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>年龄:</td>
+						<td class="xueli"><em>未选择</em><i></i>
+							<div class="drop_xueli">
+								<p>大专</p>
+								<p>本科</p>
+								<p>本科以上</p>
+								<p>其他</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>学历:</td>
+						<td class="xueli"><em>未选择</em><i></i>
+							<div class="drop_xueli">
+								<p>大专</p>
+								<p>本科</p>
+								<p>本科以上</p>
+								<p>其他</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>婚姻:</td>
+						<td>未婚<i></i>
+						</td>
+					</tr>
+				</table>						
+			</div>
+			<p>您的性别、生日、身高、学历、婚姻状况注册后将不能修 改，请认真填写。</p>
+			<div class="table2">
+				<table>
+					<tr>
+						<td>地区:</td>
+						<td><input type="text" placeholder="请输入您的地址"></td>
+					</tr>
+					<tr>
+						<td>年薪:</td>
+						<td><input type="text" placeholder="请输入您的年薪"></td>
+					</tr>
+					<tr>
+						<td>昵称:</td>
+						<td><input type="text" placeholder="请输入您的昵称"></td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</div>
+</div>	
+<script>
+//单选框美化
+	$('.table1').find('tr').eq(0).find('td').eq(1).find('label').on('tag click',function(e){
+		$(this).siblings('input').eq($(this).index()).prop('checked','true');
+		$(this).find('span').css('background-position','0.02rem 0.25rem');
+		$(this).siblings().find('span').css('background-position','-0.42rem 0.25rem');
+	})
+//出生日期
+	$('.in').mdater({
+		minDate : new Date(2015, 2, 10)
+	});
+//下拉框选取 
+	var flg=true;
+	$('.in').on('tag click ',function(){
+		$('.xueli').find('.drop_xueli').css({'height':0})
+	})
+	$('.xueli').on('tag click ',function(){
+		if(flg){
+			flg=false;
+			// $(this).parent().siblings().find('.xueli').find('.drop_xueli').css('display','none')
+			// $(this).find('.drop_xueli').css('display','block')
+			$(this).parent().siblings().find('.xueli').find('.drop_xueli').css({'height':0})
+			var _this=this;
+				$(this).find('.drop_xueli').find('p').each(function(i) {
+					//console.log(i);
+					$(_this).find('.drop_xueli').css({'height':0.86*(i+1)+'rem'})
+			});
+			
+		}
+		else{
+			flg=true;
+			$(this).find('.drop_xueli').css({'height':0})
+		}
+		var _this=this;
+		$(this).find('p').on('tag click',function(){
+			$(_this).find('em').text($(this).text()).css('color','#888888');
+
+		})
+	});
+	
+</script>
+</body>
+</html>

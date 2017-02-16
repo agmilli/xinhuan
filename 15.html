@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="html06">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/style.js"></script>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>	
+</head>
+<body>
+<div class="mobile15">
+	<header>
+		<a href=".html"></a>
+		<h1>商城</h1>
+		<a href="">上海</a>
+	</header>
+	<section class="content auto">
+		<div class="sound">
+			<img src="images/12_01.gif" alt="">
+			<h2>限时活动<p>充值<span>2100</span>金币立即获赠<span>VIP</span></p></h2>
+		</div>
+		<div class="jinbi">
+			<h2>金币充值<p>您当前共有<span>0</span>欣币</p></h2>
+			<ul class="list1">
+				<li class="active"><p class="icon3"></p>300金币<span>298元</span></li>
+				<li><p class="icon3"></p>300金币<span>298元</span></a></li>
+				<li><p class="icon3"></p>300金币<span>298元</span></a></li>
+			</ul>
+			<div class="btn"><a href="javascript:void(0);">立即充值</a></div>
+
+		</div>
+		<div class="jinbi s2">
+			<h2>账户升级<p>你当前是<span>普通会员</span></p></h2>
+			<ul class="list2">
+				<li class="active"><p class="icon3"></p>铜牌会员<span>888元</span></li>
+				<li><p class="icon3"></p>银牌会员<span>1888元</span></a></li>
+				<li><p class="icon3"></p>黄金会员<span>3888元</span></a></li>
+				<li><p class="icon3"></p>钻石会员<span>8888元</span></a></li>
+				<li><p class="icon3"></p>至尊会员<span>18888元</span></a></li>
+			</ul>
+			<div class="btn listlast"><a href="javascript:void(0);">立即开通</a><a href="javascript:void(0);">查看会员特权</a></div>
+		</div>
+	</section>
+	<footer class="footer">
+		<ul>
+			<li class="">
+				<a>
+					<p class="icon_foot auto"></p>
+					<span>首页</span>
+				</a>
+			</li>
+			<li class="">
+				<a href="09.html">
+					<p class="icon_foot auto "></p>
+					<span>聊吧</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="15.html">
+					<p class="icon_foot auto active">
+						
+					</p>
+					<span>商店</span>
+				</a>
+			</li>
+			<li class="">
+				<a href="17.html">
+					<p class="icon_foot auto"><i>1</i></p>
+					<span>消息</span>
+				</a>
+			</li>
+			<li class="">
+				<a href="19.html">
+					<p class="icon_foot auto"></p>
+					<span>个人中心</span>
+				</a>
+			</li>
+		</ul>
+	</footer>
+</div>
+<script>
+	$('.list1').find('li').on('tag click',function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+	$('.list2').find('li').on('tag click',function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+</script>
+</body>
+</html>
